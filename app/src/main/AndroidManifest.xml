@@ -3,13 +3,14 @@
     package="com.asifddlks.basicviperarchforandroid">
 <uses-permission android:name="android.permission.INTERNET"/>
     <application
+        android:name=".BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
-        android:theme="@style/Theme.StockX">
+        android:theme="@style/Theme.BasicViperArch">
         <activity
             android:name="com.asifddlks.basicviperarchforandroid.loginModule.LoginActivity"
             android:exported="false" />

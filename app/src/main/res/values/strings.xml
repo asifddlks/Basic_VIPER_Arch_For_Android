@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">StockX</string>
+    <string name="app_name">Basic VIPER Arch</string>
     <string name="hint_user_name">user name</string>
     <string name="btn_login_text">Login</string>
 </resources>
