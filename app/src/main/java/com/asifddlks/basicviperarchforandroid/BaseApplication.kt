@@ -3,7 +3,7 @@ package com.asifddlks.basicviperarchforandroid
 import android.app.Application
 import timber.log.Timber
 
-class StockXApplication: Application() {
+class BaseApplication: Application() {
 
 
     override fun onCreate() {
