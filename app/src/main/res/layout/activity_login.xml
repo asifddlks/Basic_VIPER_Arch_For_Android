@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginModule.LoginActivity"
+    android:id="@+id/con_root">
+
+
+    <LinearLayout
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginStart="@dimen/dp_32"
+        android:layout_marginEnd="@dimen/dp_32"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edUserName"
+            android:layout_marginStart="@dimen/dp_8"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:hint="@string/hint_user_name"
+            android:inputType="textEmailAddress"
+            android:importantForAutofill="yes"
+            android:autofillHints="username or email"
+            android:maxLength="4"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edPin"
+            android:layout_marginStart="@dimen/dp_8"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:hint="@string/hint_user_name"
+            android:inputType="numberPassword"
+            android:importantForAutofill="yes"
+            android:autofillHints="pin"
+            android:layout_marginTop="@dimen/dp_8"
+            android:maxLength="4"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLogin"
+            android:layout_marginStart="@dimen/dp_8"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:layout_marginTop="@dimen/dp_8"
+            android:text="@string/btn_login_text"
+            android:textAllCaps="true"
+            />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
