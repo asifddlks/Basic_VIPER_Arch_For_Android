@@ -1,4 +1,4 @@
-package com.techetronventures.stockx
+package com.asifddlks.basicviperarchforandroid
 
 import org.junit.Test
 

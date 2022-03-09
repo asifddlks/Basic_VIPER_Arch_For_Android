@@ -1,9 +1,9 @@
-package com.techetronventures.stockx
+package com.asifddlks.basicviperarchforandroid
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.techetronventures.stockx.loginModule.LoginActivity
+import com.asifddlks.basicviperarchforandroid.loginModule.LoginActivity
 
 class MainActivity : AppCompatActivity() {
 

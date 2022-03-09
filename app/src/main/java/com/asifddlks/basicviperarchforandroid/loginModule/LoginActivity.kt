@@ -1,10 +1,9 @@
-package com.techetronventures.stockx.loginModule
+package com.asifddlks.basicviperarchforandroid.loginModule
 
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import com.techetronventures.stockx.databinding.ActivityLoginBinding
-import com.techetronventures.stockx.loginModule.validator.LoginValidationResponse
+import com.asifddlks.basicviperarchforandroid.databinding.ActivityLoginBinding
+import com.asifddlks.basicviperarchforandroid.loginModule.validator.LoginValidationResponse
 import timber.log.Timber
 
 class LoginActivity : AppCompatActivity(), LoginContractor.LoginView {

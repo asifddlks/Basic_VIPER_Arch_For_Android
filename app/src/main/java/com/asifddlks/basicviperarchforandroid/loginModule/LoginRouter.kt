@@ -1,8 +1,8 @@
-package com.techetronventures.stockx.loginModule
+package com.asifddlks.basicviperarchforandroid.loginModule
 
 import android.content.Context
 import android.content.Intent
-import com.techetronventures.stockx.MainActivity
+import com.asifddlks.basicviperarchforandroid.MainActivity
 import timber.log.Timber
 
 class LoginRouter(private val context: Context) : LoginContractor.LoginRouter{

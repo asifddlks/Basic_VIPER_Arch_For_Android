@@ -1,3 +1,3 @@
-package com.techetronventures.stockx.loginModule.validator
+package com.asifddlks.basicviperarchforandroid.loginModule.validator
 
 data class LoginValidationResponse(var isSuccess : Boolean, var error: String, var index : Int)

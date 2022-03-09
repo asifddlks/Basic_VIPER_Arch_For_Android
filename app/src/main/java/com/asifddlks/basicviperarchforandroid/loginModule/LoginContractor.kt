@@ -1,6 +1,6 @@
-package com.techetronventures.stockx.loginModule
+package com.asifddlks.basicviperarchforandroid.loginModule
 
-import com.techetronventures.stockx.loginModule.validator.LoginValidationResponse
+import com.asifddlks.basicviperarchforandroid.loginModule.validator.LoginValidationResponse
 
 class LoginContractor {
 

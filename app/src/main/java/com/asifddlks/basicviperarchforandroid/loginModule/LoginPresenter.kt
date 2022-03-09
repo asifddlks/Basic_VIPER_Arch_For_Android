@@ -1,8 +1,7 @@
-package com.techetronventures.stockx.loginModule
+package com.asifddlks.basicviperarchforandroid.loginModule
 
 import android.content.Context
-import android.util.Log
-import com.techetronventures.stockx.loginModule.validator.LoginValidator
+import com.asifddlks.basicviperarchforandroid.loginModule.validator.LoginValidator
 import timber.log.Timber
 
 class LoginPresenter(private val loginView: LoginContractor.LoginView,private val context: Context) : LoginContractor.LoginPresenter{

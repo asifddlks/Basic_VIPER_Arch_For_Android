@@ -1,4 +1,4 @@
-package com.techetronventures.stockx
+package com.asifddlks.basicviperarchforandroid
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

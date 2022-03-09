@@ -1,4 +1,4 @@
-package com.techetronventures.stockx.loginModule.entity
+package com.asifddlks.basicviperarchforandroid.loginModule.entity
 
 data class PostsItem(
     val body: String,

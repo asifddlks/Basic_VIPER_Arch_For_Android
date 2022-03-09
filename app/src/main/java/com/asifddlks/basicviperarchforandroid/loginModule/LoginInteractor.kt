@@ -1,9 +1,9 @@
-package com.techetronventures.stockx.loginModule
+package com.asifddlks.basicviperarchforandroid.loginModule
 
 import android.util.Log
-import com.techetronventures.stockx.RetrofitClient
-import com.techetronventures.stockx.loginModule.api.LoginApi
-import com.techetronventures.stockx.loginModule.entity.PostsItem
+import com.asifddlks.basicviperarchforandroid.RetrofitClient
+import com.asifddlks.basicviperarchforandroid.loginModule.api.LoginApi
+import com.asifddlks.basicviperarchforandroid.loginModule.entity.PostsItem
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

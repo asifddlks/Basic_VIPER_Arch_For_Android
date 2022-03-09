@@ -1,4 +1,4 @@
-package com.techetronventures.stockx.loginModule.validator
+package com.asifddlks.basicviperarchforandroid.loginModule.validator
 
 class LoginValidator {
 
